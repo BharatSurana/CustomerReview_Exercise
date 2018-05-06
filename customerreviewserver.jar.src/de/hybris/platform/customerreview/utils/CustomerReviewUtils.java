@@ -25,16 +25,7 @@ public class CustomerReviewUtils {
     /** The property config. */
     private static PropertiesConfiguration propertyConfig;
     private static List<String> curseWordsList;
-	
-	/*
-	 * read a list of curse words.
-	 * 
-	 * @param rating - user rating for a product.
-	 * @param headline and comment - are string values for product review
-	 * 
-	 * @throw
-	 */
-    
+	    
     /**
      * Check if Customer’s comment contains any of these curse words. If it does, throw an exception with a message.
      * Check if the rating is not < 0.  If it is < 0, throw an exception with a message
