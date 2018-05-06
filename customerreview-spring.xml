@@ -41,7 +41,7 @@
 	</bean>
 	
 	<bean id="customerReviewUtils" class="de.hybris.platform.customerreview.utils.CustomerReviewUtils" scope="tenant">
-    	<property name="propertyConfig" alue="classpath:path/config.properties"/>
-    	<property name="curseWordsList" value="curse.words.list"/>
+		<property name="propertyConfig" alue="classpath:path/config.properties"/>
+		<property name="curseWordsList" value="curse.words.list"/>
 	</bean>
 </beans>
